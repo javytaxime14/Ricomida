@@ -1,0 +1,48 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+.navbar-brand {
+    font-family: 'Lobster', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+.nav-link {
+    font-family: 'Cabin', sans-serif;
+}
+
+hr {
+    color: rgb(5, 0, 0);
+}
+
+@media (max-width: 500px) {
+    h1 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+}
+.logo {
+    font-family: 'Lobster', sans-serif;
+}
+.carousel-indicators {
+    top: 200px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+.carousel-indicators .active {
+    background-color: rgb(88, 85, 85);
+}
+.small {
+    font-size: 10px;
+}
+.card {
+    border: solid 0.5px rgba(128, 128, 128, 0.329);
+}
+.newsletter .btn {
+    padding: 0.3125em 3.125em;
+}
